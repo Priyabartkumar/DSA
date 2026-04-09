@@ -1,3 +1,4 @@
+Level-Easy
 Q) A gym offers membership plans based on the number of months a customer enrolls. Write a program that prints the total membership cost or an appropriate message for edge cases.
 
 📐 Pricing Rules
