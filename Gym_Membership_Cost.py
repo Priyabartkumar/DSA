@@ -13,8 +13,10 @@ Duration	                Cost (₹)
 Input < 0	invalid input
 Input = 0	0
 
-months = int(input())
 
+Python Code:
+
+months = int(input())
 if   months < 0:    print("invalid input")
 elif months == 0:   print(0)
 elif months == 1:   print(2000)
