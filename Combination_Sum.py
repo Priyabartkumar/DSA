@@ -17,3 +17,9 @@ Output: [[2,2,2,2],[2,3,3],[3,5]]
 Example 3:
 Input: candidates = [2], target = 1
 Output: []
+
+Constraints:
+1 <= candidates.length <= 30
+2 <= candidates[i] <= 40
+All elements of candidates are distinct.
+1 <= target <= 40
