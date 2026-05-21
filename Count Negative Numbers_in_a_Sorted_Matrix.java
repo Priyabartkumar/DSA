@@ -21,6 +21,8 @@ n == grid[i].length
 1 <= m, n <= 100
 -100 <= grid[i][j] <= 100
 
+ 
+ ANSWER:
  class Solution {
     public int countNegatives(int[][] grid) {
         int rows= grid.length;
