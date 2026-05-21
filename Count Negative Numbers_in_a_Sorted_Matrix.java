@@ -1,5 +1,6 @@
 Topic:Binary Search 
 question n.o =1351
+Level = Easy
 
 Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
 Example 1:
