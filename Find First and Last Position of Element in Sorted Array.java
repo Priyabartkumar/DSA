@@ -1,3 +1,4 @@
+Level:Medium
 Question n.o 34:
 Topic:Binary Search
  
