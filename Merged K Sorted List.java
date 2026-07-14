@@ -1,5 +1,6 @@
-Question n.o 23
 Level Hard
+Question n.o 23
+
 
  
 You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
