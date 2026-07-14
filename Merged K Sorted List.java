@@ -1,5 +1,5 @@
 Level Hard
-Question n.o 23
+Question:23
 
 
  
