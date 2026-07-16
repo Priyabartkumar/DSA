@@ -1,4 +1,4 @@
-Topic: Array and Linkedlist
+Concept: Array and Linkedlist
 Level:Hard
 Question:23
 
