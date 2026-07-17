@@ -1,4 +1,4 @@
-Concept: Array and Linkedlist
+Concept: Array and Linkedlist which  leads to ArrayList
 Level:Hard
 Question:23
 
