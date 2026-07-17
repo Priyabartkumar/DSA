@@ -36,4 +36,9 @@ lists[i] is sorted in ascending order.
 The sum of lists[i].length will not exceed 104.
 
  Answer:
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        if(lists ==null || lists.length == 0){
+            return  null;
+        }
 
