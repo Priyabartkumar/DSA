@@ -41,4 +41,7 @@ class Solution {
         if(lists ==null || lists.length == 0){
             return  null;
         }
+     while(lists.length > 1){
+            List<ListNode> temp = new ArrayList<>();
+            for(int i = 0; i<lists.length; i+=2)
 
