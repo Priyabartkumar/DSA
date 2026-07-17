@@ -43,5 +43,9 @@ class Solution {
         }
      while(lists.length > 1){
             List<ListNode> temp = new ArrayList<>();
-            for(int i = 0; i<lists.length; i+=2)
+            for(int i = 0; i<lists.length; i+=2){
+                ListNode l1 = lists[i];
+                ListNode l2 = i + 1 < lists.length ? lists[i + 1] : null;
+                temp.add(mergeLists(l1, l2));
+            }
 
