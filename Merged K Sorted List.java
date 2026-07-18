@@ -59,5 +59,7 @@ class Solution {
         return head.next;
     }
 }
+
+Time Complexity: O(NlogN)
      
 
