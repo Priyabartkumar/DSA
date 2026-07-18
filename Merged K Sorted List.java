@@ -38,14 +38,13 @@ The sum of lists[i].length will not exceed 104.
  Answer:
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists ==null || lists.length == 0){
-            return  null;
-        }
-     while(lists.length > 1){
-            List<ListNode> temp = new ArrayList<>();
-            for(int i = 0; i<lists.length; i+=2){
-                ListNode l1 = lists[i];
-                ListNode l2 = i + 1 < lists.length ? lists[i + 1] : null;
-                temp.add(mergeLists(l1, l2));
+        List<Integer> l = new ArrayList<Integer>();
+
+        for(ListNode ln: lists){
+            while (ln!= null){
+                l.add(ln.val);
+                ln = ln.next;
             }
+        }
+     
 
