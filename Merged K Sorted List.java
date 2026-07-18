@@ -55,5 +55,9 @@ class Solution {
             h.next =t;
             h = h.next;
         }
+     h.next = null;
+        return head.next;
+    }
+}
      
 
