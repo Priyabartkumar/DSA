@@ -28,3 +28,18 @@ nums is an ascending array that is possibly rotated.
 
 
 Code:
+class Solution {
+    public int search(int[] nums, int target) {
+        if(nums == null){
+            return -1;
+        }
+        int i;
+        for(i = 0;i<nums.length;i++){
+            if(nums[i] == target){
+                return i;
+            }
+            
+        }
+        return -1;
+    }
+}
