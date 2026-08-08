@@ -1,6 +1,6 @@
 Level:Medium
 Question n.o 34:
-Topic:Binary Search
+Topic:Binary Search,Array
  
 Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
 
