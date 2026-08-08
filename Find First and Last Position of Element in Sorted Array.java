@@ -31,6 +31,8 @@ nums is a non-decreasing array.
 -109 <= target <= 109
 
 code:
-class Solution{}
+class Solution{
+ Public
+}
 
 
