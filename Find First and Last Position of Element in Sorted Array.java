@@ -32,7 +32,7 @@ nums is a non-decreasing array.
 
 code:
 class Solution{
- Public int[]
+ Public int[] searchRange
 }
 
 
