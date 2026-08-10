@@ -32,7 +32,8 @@ nums is a non-decreasing array.
 
 code:
 class Solution{
- Public int[] searchRange(int[] nums, int target)
+ Public int[] searchRange(int[] nums, int target){}
+ 
 }
 
 
