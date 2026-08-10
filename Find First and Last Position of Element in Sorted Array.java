@@ -2,6 +2,7 @@ Level:Medium
 Question n.o 34:
 Topic:Binary Search,Array
 Time Complexity:O(log n)
+Spce Cmplexity:
  
 Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
 
