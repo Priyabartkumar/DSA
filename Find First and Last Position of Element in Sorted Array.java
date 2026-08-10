@@ -31,9 +31,47 @@ nums is a non-decreasing array.
 -109 <= target <= 109
 
 code:
-class Solution{
- Public int[] searchRange(int[] nums, int target){}
- 
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        int ans;
+        int a[] = new int[2];
+        a[0]=-1;
+        a[1]=-1;
+        if(nums==null){
+            return a;
+        }
+        int start=0;
+        int end = nums.length-1;
+
+        while(start<=end){
+            int mid= start+(end-start)/2;
+
+            if(nums[mid]==target){
+                a[0]=mid;
+                end = mid-1;
+            }else if(nums[mid]>target){
+                end = mid-1;
+            }else{
+                start=mid+1;
+            }
+        }
+        start=0;
+        end=nums.length-1;
+        while(start<=end){
+            int mid= start+ (end-start)/2;
+
+            if(nums[mid]==target){
+                a[1]= mid;
+                start = mid+1;
+            }else if(nums[mid]>target){
+                end=mid-1;
+            }else{
+                start = mid+1;
+            }
+        }
+        return a;
+    }
+
 }
 
 
