@@ -31,3 +31,5 @@ n == matrix[i].length
 -104 <= matrix[i][j], target <= 104
 
 Code:
+class Solution{
+ 
