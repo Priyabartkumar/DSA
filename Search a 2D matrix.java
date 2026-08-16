@@ -32,5 +32,5 @@ n == matrix[i].length
 
 Code:
 class Solution{
-       Public Boolean SearchMatrix(int[][] matrix
+       Public Boolean SearchMatrix(int[][] matrix, int Target
  
