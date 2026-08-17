@@ -29,5 +29,5 @@ All elements of candidates are distinct.
 
 Code:
 class Solution{
-  public List
+  public List<List<Integer>>
 }
