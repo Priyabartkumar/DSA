@@ -28,3 +28,6 @@ All elements of candidates are distinct.
 1 <= target <= 40
 
 Code:
+class Solution{
+  public List
+}
