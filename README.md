@@ -1,2 +1,2 @@
-These are the question which ia m practioning daily
+These are the question which ia m practioning daily, trying 
 
