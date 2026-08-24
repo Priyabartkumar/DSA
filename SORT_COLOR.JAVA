@@ -19,7 +19,9 @@ Output: [0,1,2]
 Explanation:
 The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
- Constraints:
+Constraints:
 n == nums.length
 1 <= n <= 300
 nums[i] is either 0, 1, or 2.
+
+Code:
