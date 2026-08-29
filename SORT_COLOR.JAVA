@@ -26,5 +26,5 @@ nums[i] is either 0, 1, or 2.
 
 Code:
 class Solution{
-      public void
+      public void sortColors
 }
